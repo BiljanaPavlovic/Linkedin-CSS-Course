@@ -1,17 +1,48 @@
 /**
+ * /
+ * body {
+ * }
+ * 
  * /* ABOUT / PROFILE
  * -----------------------------------------------------------
  *
  * @format
  */
 
+h1 {
+  text-align: center;
+}
+
 /* PROJECTS / PORTFOLIO
 -----------------------------------------------------------*/
+.projects-container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 5%;
+}
+.project-img {
+  width: 500px;
+  height: 300px;
+}
 
 /*  WORK EXPERIENCE
 -----------------------------------------------------------*/
+.experience-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
 /* EDUCATION & CERTIFICATIONS
 -----------------------------------------------------------*/
+.education-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
 
 /*  CONTACT INFO / SOCIAL MEDIA
 -----------------------------------------------------------*/
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
